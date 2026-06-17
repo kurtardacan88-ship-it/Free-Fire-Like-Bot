@@ -28,12 +28,12 @@ if not BOT_TOKEN:
     logger.error("❌ BOT_TOKEN not found! Please set your bot token in environment variables.")
     sys.exit(1)
 
-REQUIRED_CHANNELS = ["@liketutorial001"]
-GROUP_JOIN_LINK = "https://t.me/liketutorialgroup"
-OWNER_ID = 5187492056
-OWNER_USERNAME = "@@itzpaglu"
+REQUIRED_CHANNELS = ["@likebotgru"]
+GROUP_JOIN_LINK = "https://t.me/likebotgru"
+OWNER_ID = 6244110783
+OWNER_USERNAME = "@xp"
 
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot(8263277143:AAHE4qXILW0Q14XgofD6qBQMWLiZadi-k5A)
 like_tracker = {}   # in-memory cache
 
 # Flask app for webhook
