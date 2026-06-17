@@ -33,7 +33,7 @@ GROUP_JOIN_LINK = "https://t.me/likebotgru"
 OWNER_ID = 6244110783
 OWNER_USERNAME = "@xp"
 
-bot = telebot.TeleBot(8263277143:AAHE4qXILW0Q14XgofD6qBQMWLiZadi-k5A)
+bot = telebot.TeleBot(BOT_TOKEN)
 like_tracker = {}   # in-memory cache
 
 # Flask app for webhook
